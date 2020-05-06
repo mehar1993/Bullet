@@ -137,7 +137,7 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
         version   = "latest"
     }
 
-    computer_name  = "myvm"
+    computer_name  = "MeharVm"
     admin_username = "mehar1993"
     disable_password_authentication = true
 
