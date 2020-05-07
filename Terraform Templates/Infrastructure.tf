@@ -125,7 +125,7 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
     size                  = "Standard_DS1_v2"
 
     os_disk {
-        name              = "myOsDisk"
+        name              = "myOsDisk1"
         caching           = "ReadWrite"
         storage_account_type = "Premium_LRS"
     }
