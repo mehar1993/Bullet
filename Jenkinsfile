@@ -6,13 +6,13 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('Display') {
       steps {
         ws(dir: '/opt/Jenkins') {
           timestamps() {
             echo 'Welcome to Jenkins'
           }
-
+  
         }
 
       }
