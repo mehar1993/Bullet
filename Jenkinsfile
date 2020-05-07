@@ -12,6 +12,7 @@ pipeline {
           timestamps() {
             echo 'Welcome to Jenkins'
           }
+    
 
         }
 
